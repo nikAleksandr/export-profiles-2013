@@ -114,7 +114,7 @@ void basicStats() {
     else {
       centralOutlying = ", outlying";
     }
-    if (counties.getInt1(c, 9)==1) {
+    if (counties.getInt1(c, 8)==1) {
       metroMicro = "in the " + counties.getString(c, 7) + " micropolitan area.";
     }
     else {
